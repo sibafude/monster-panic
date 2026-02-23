@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+<title>Monster Panic - HTML5 Rebuild</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+<div id="game-root">
+  <canvas id="game-canvas"></canvas>
+  <div id="ui-overlay">
+    <div id="score">SCORE: 0</div>
+    <button id="btn-sound">SND</button>
+  </div>
+  <div id="controls">
+    <div id="left" class="ctl">◀</div>
+    <div id="right" class="ctl">▶</div>
+    <div id="jump" class="ctl">JUMP</div>
+    <div id="attack" class="ctl">ATTK</div>
+  </div>
+</div>
+<script src="js/sound.js"></script>
+<script src="js/player.js"></script>
+<script src="js/enemy.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
